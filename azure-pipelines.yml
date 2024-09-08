@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: azure-devops-ubuntu-agent
+  name: Default
 
 steps:
 - task: Maven@3
