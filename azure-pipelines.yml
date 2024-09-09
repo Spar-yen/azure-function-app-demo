@@ -25,7 +25,7 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)/target/azure-functions/function-app-demo'
     includeRootFolder: false
-    archiveType: '7zip'
+    archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
     
